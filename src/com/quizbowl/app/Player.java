@@ -2,14 +2,15 @@ package com.quizbowl.app;
 
 public class Player {
 	private String lname,fname;
-	int points;
+	private int points;
 	
-	protected Boolean savePlayer(String lname,String fname)
+	public Player(String lname,String fname)
 	{
 		this.lname = lname;
-		this.fname = fname;	
-		return true;
+		this.fname = fname;
+		this.points = 0;
 	}
+	
 	protected String getFullName()
 	{
 		return fname+" "+lname;

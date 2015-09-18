@@ -15,7 +15,7 @@ public class QuizBowlDriver  {
 	BufferedReader br; 
 	int questionnumbers;
 	FileDriver filedriver;
-	Player player = new Player();
+	Player player;
 	public final static String SA ="SA";
 	public final static String MC ="MC";
 	public final static String TF ="TF";
@@ -37,7 +37,7 @@ public class QuizBowlDriver  {
 		String lname = br.readLine();
 		System.out.println("Enter Filename to save session:");
 		String filename = br.readLine();
-		player.savePlayer(lname,fname);
+		player = new Player(lname, fname);
 		filedriver = new FileDriver(filename);
 	}
 	boolean interactiveShell()  throws Exception
