@@ -1,0 +1,16 @@
+3
+TF 10
+There exists bird can fly ? true/false?
+true
+MC 20
+who was the president of USA in 1993?
+5
+Clinton
+shivasurya
+lincoln
+obama
+bush
+C
+SA 25
+who is the famous blogger of india
+labnol
